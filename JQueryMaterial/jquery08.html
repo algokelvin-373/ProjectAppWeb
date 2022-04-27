@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlgoKelvin JQuery 8</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+            $("#test1").text("Hello world, AlgoKelvin");
+          });
+          $("#btn2").click(function(){
+            $("#test2").html("Hello world, <b>AlgoKelvin</b>");
+          });
+          $("#btn3").click(function(){
+            $("#test3").val("AlgoKelvin");
+          });
+        });
+    </script>
+</head>
+<body>
+<a style="font-size: 30px;"><strong>AlgoKelvin JQuery 8 - Set Text | HTML | Value</strong></a> <br><br><br>
+
+<p id="test1">Press Button Set Text</p>
+<p id="test2">Press Button Set HTML</p>
+<p>Input field: <input type="text" id="test3" value="Calvin"></p>
+
+<button id="btn1">Set Text</button>
+<button id="btn2">Set HTML</button>
+<button id="btn3">Set Value</button>
+
+</body>
+</html>
