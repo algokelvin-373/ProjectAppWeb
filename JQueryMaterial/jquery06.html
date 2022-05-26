@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlgoKelvin JQuery 6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#show").click(function(){
+            alert("AlgoKelvin learn "+ $("#bootstrap").text());
+          });
+          $(".show").click(function(){
+            alert("AlgoKelvin learn "+ $(".jquery").text());
+          });
+        });
+    </script>
+</head>
+<body>
+<a style="font-size: 30px;"><strong>AlgoKelvin JQuery 6 - Get Contents</strong></a> <br><br><br>
+<a style="font-size: 20px;"><b>Choose One</b></a> <br>
+<a id="bootstrap">1. Bootstrap</a> <br>
+<a class="jquery">2. jQuery</a> <br><br>
+<button id="show">Bootstrap</button> <button class="show">jQuery</button>
+</body>
+</html>
